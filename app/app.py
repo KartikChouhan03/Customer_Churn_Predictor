@@ -20,7 +20,7 @@ st.write("Predict whether a bank customer is likely to churn.")
 # Load Model
 # ----------------------------
 
-model = pickle.load(open("models/churn_model.pkl", "rb"))
+model = pickle.load(open("../models/churn_model.pkl", "rb"))
 # ----------------------------
 # Input Section
 # ----------------------------
